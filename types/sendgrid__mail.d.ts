@@ -5,6 +5,7 @@ declare module '@sendgrid/mail' {
     subject: string;
     text?: string;
     html?: string;
+    replyTo?: string;
   }
 
   const sgMail: {
